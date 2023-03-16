@@ -41,3 +41,20 @@ function RenderButton(text){
 }
 
 mySuperArrayofStrings.forEach(element => RenderButton(element));
+
+//defino una funcion
+function MySuperFuncion(){
+
+}
+
+MySuperFuncion(); //Invocamos la funcion
+
+//Podemos asignar a una constante una funcion que NO tenga nombre
+const MySuperFuncionDefinida = function () {
+
+}
+MySuperFuncionDefinida();
+
+
+// Definir funciones asignando otras...
+const MySegundaSuperFuncion = MySuperFuncion()
