@@ -96,7 +96,7 @@ const MySuperArrowFunction = x => x + 1
 // resolvemos el ejercicio del dia
 let inputArray = ["Username", "Surname", "E-mail", "Password"];
 
-let inputArrayFiltered = inputArray.filter( element => element=="Username");
+let inputArrayFiltered = inputArray.filter( element => element=="Password");
 
 inputArrayFiltered.forEach(function (element) {
     RenderInput(element);
